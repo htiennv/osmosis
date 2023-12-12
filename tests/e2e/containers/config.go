@@ -30,7 +30,7 @@ const (
 	previousVersionInitTag        = "21.0.0"
 	// Hermes repo/version for relayer
 	relayerRepository = "informalsystems/hermes"
-	relayerTag        = "1.5.1"
+	relayerTag        = "v1.7.3"
 )
 
 // Returns ImageConfig needed for running e2e test.
