@@ -36,7 +36,7 @@ port = 3001
 [[chains]]
 id = '$OSMO_A_E2E_CHAIN_ID'
 rpc_addr = 'http://$OSMO_A_E2E_VAL_HOST:26657'
-grpc_addr = 'http://$OSMO_A_E2E_VAL_HOST:9090'
+grpc_addr = '$OSMO_A_E2E_VAL_HOST:9090'
 event_source = 'ws://$OSMO_A_E2E_VAL_HOST:26657/websocket'
 rpc_timeout = '30s'
 account_prefix = 'osmo'
@@ -52,7 +52,7 @@ trust_threshold = { numerator = '1', denominator = '3' }
 [[chains]]
 id = '$OSMO_B_E2E_CHAIN_ID'
 rpc_addr = 'http://$OSMO_B_E2E_VAL_HOST:26657'
-grpc_addr = 'http://$OSMO_B_E2E_VAL_HOST:9090'
+grpc_addr = '$OSMO_B_E2E_VAL_HOST:9090'
 event_source = 'ws://$OSMO_B_E2E_VAL_HOST:26657/websocket'
 rpc_timeout = '30s'
 account_prefix = 'osmo'
